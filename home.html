@@ -18,14 +18,14 @@
 		<h1>Hello World</h1>
 		<!-- insert hello world here -->
 
-		<img src="assets/rubberduck.webp" />
+		<img src="assets/rubberduck.webp" id="rubber-ducky" />
 		<div class="paragraph">
 			<h3 class="openingPara">Thank you for visiting our homepage. We hope you find something useful while you're here. Please leave your information below. We're looking forward to working with you.</h3>
 		
 			<ul class="compliments">
-				<li>You're doing great!</li>
-				<li>Wow, you really know what you're looking for!</li>
-				<li>You type fast!</li>
+				<li class="great">You're doing great!</li>
+				<li class="looking">Wow, you really know what you're looking for!</li>
+				<li class="fast">You type fast!</li>
 			</ul>
 		</div>
 
@@ -44,12 +44,10 @@
 		</form>
 		<form id="howDidYouHear">
 			<h2>How did you hear about us</h2>
-			<label for="checkbox">Google</label>
-			<input type="checkbox" id="checkbox" name="checkbox">
-			<label for="checkbox">A Friend</label>
-			<input type="checkbox" id="checkbox" name="checkbox">
-			<label for="checkbox">Other</label>
-			<input type="checkbox" id="checkbox" name="checkbox">
+			<label for="checkbox">Google</label><input type="checkbox" id="checkbox" name="google">
+			<label for="checkbox">A Friend</label><input type="checkbox" id="checkbox" name="friend">
+			<label for="checkbox">Other</label><input type="checkbox" id="checkbox" name="other">
+			
 		</form>
 	</content>
 
