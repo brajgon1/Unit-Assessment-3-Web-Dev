@@ -62,11 +62,6 @@ img {
 .img {
 	display: flex;
 	justify-content: center;
-	margin-left: 145px;
-}
-
-h4 {
-	margin-left: 10px;
 }
 
 .class {
