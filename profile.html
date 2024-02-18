@@ -14,37 +14,77 @@
 	        <li class="onTop"><a href="./about.html">About</a></li>
 	    </ol>
 	</nav>
-    <h1>Fun Facts and Tidbits on Brandon</h1>
-    <h2>Skills</h2>
+    <h1 class="titleHeading">Fun Facts and Tidbits on Brandon</h1>
+    <section class="unordered">
+        <div class="skill">
+    <h2 class="profileHeading">Skills</h2>
     <ul>
         <li>Gets Too Anxious</li>
         <li>Decent at video games</li>
         <li>Hard worker</li>
         <li>Can cook a steak the perfect medium rare</li>
     </ul>
-    <h2>Interests</h2>
+    </div>
+    <div class="interest">
+    <h2 class="profileHeading">Interests</h2>
     <ul>
         <li>Front End Development</li>
         <li>Loves reading conspiracy theories, but doesn't believe in any</li>
         <li>How movies are made</li>
         <li>Spending time with wife and kids</li>
     </ul>
-    <h2>Career Goals</h2>
+    </div>
+    <div class="goals">
+    <h2 class="profileHeading">Career Goals</h2>
     <ul>
         <li>Change jobs before 2025</li>
         <li>Work a job I love and don't dread going into every morning</li>
         <li>Make enough to support my family & to enjoy living</li>
         <li>Make an impact in the work I do</li>
     </ul>
-    <div class="movie">
-        <h2>Favorite Movies Recently Seen in Order</h2>
+    </div>
+    </section>
+
+    
+    <section class="orderedAndStuff">
+    <div class="film">
+        <h2 class="profileHeadingNumb">Favorite Movies Recently Seen in Order</h2>
         <ol>
-          <li>Oppenheimer</li>
-          <li>The Iron Claw</li>
-          <li>Killers of the Flower Moon</li>
-          <li>No Hard Feelings</li>  
+          <li class="numb">Oppenheimer</li>
+          <li class="numb">The Iron Claw</li>
+          <li class="numb">Killers of the Flower Moon</li>
+          <li class="numb">No Hard Feelings</li>  
         </ol>
     </div>
+
+    <div class="newBtns">
+    <button id="color" class="clrBtn">My Favorite Color</button>
+    <button id="place" class="plcBtn">My Favorite Place</button>
+    <button id="ritual" class="ritBtn">My Favorite Ritual</button>
+    </div>
+
+    <div class="itsMe">
+    <h3 class="history">Brief History of Me</h3>
+    <p class="para">I was the fifth born in a ever-growing family in a small town called Aumsville, Oregon. It's a small farm town about 15 minutes east of the capital Salem. I grew up playing sports. I went to three elementaries schools when I was young and three different small farmtown cities. Cascade High School was where I graduated from. I attended community college at Chemeketa and worked as a waiter and a bartender to pay off school.</p>
+    <p class="para">My father accepted a job  out in Utah. This had me deciding where or not I needed to move out to Utah or remain in Oregon. I decided that I needed a fresh new start on life and packed up my 2005 Dodge Neon and drove all the way to Utah. I lived in Provo while I attended Utah Valley University. After securing a bachelors degree, I moved to Vineyard in the spring of 2019. I lived there through Covid, and eventually purchased a condo in American Fork in late 2021. My wife and I then moved to South Jordan April 2023 and have been here since</p>
+    </div>
+    <div class="truthOrLie">
+        <h3 class="liar">Truth or Not Truth</h3>
+        <ul class="lieList">
+            <li class="trueOrNot">I have two different degrees from multiple different colleges</li>   
+        </ul>
+        <form class="form">
+            <input type="radio" name="trueFalse" value="true" id="true"/>
+            <label for="true">True</label>
+            <input type="radio" name="trueFalse" value="false" id="false"/>
+            <label for="false">False</label>
+        </form>
+        <button id="liarSubmission">Submit</button>
+    </div>
+    </section>
+
+    <script src="profile.js"></script>
+
 </body>
 </html>
 

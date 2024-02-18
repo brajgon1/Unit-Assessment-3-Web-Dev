@@ -1,8 +1,10 @@
+/*  */
+/*  */
 body {
   background: #ddd;
   margin: 1rem;
   padding: 1rem;
-  max-width: 500px;
+  max-width: 600px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
 }
@@ -40,4 +42,178 @@ img {
 .onTop {
 	margin-right: 2em;
 	display: inline;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+	color: crimson;
+}
+
+.contactHeading {
+	color: crimson;
+}
+
+.whoAreYou {
+	color: crimson;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+	margin-left: 145px;
+}
+
+h4 {
+	margin-left: 10px;
+}
+
+.class {
+	padding-left: 10px;
+}
+
+.unordered {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 25px;
+}
+
+.titleHeading {
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+	color: crimson;
+}
+
+.profileHeading {
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+	color: crimson;
+}
+
+.profileHeadingNumb {
+	margin-left: 70px;
+	text-decoration: underline;
+	color: crimson;
+}
+
+.numb {
+	margin-left: 90px;
+}
+
+.numb:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.history {
+	display: flex;
+	justify-content: center;
+	color: crimson;
+	text-decoration: underline;
+}
+
+.para {
+	text-indent: 35px;
+}
+
+.liar {
+	color: crimson;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+}
+
+.truthOrLie {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px 25px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.trueOrNot {
+	margin-top: 0px;
+	list-style: none;
+}
+
+.contactUsPls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#howDidYouHear {
+	display: flex;
+	justify-content: center;
+}
+
+.openingPara {
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.compliments {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 60px;
+}
+
+#liarSubmission {
+	border-radius: 90px;
+}
+
+#liarSubmission:hover {
+	cursor: pointer;
+	background-color: darkgoldenrod;
+	color: crimson;
+}
+
+.newBtns {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#color:hover {
+	cursor: pointer;
+	background-color: darkgoldenrod;
+	color: crimson;
+}
+
+#place:hover {
+	cursor: pointer;
+	background-color: darkgoldenrod;
+	color: crimson;
+}
+
+#ritual:hover {
+	cursor: pointer;
+	background-color: darkgoldenrod;
+	color: crimson;
+}
+
+.clrBtn {
+	transform: scale(1.2);
+	background-color: yellow;
+}
+
+.plcBtn {
+	transform: scale(1.2);
+	background-color: yellow;
+}
+
+.ritBtn {
+	transform: scale(1.2);
+	background-color: yellow;
 }
